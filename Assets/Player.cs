@@ -84,7 +84,13 @@ public class Player : MonoBehaviour
             Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
         }
 
-       
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Instantiate(LaunchableProjectilePrefab, LaunchOffset.position, transform.rotation);
+        }
+
+
+
     }
 
     private void AnimationControllers()

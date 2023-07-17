@@ -95,6 +95,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 4.5
+  LaunchOffset: {x: 0, y: 0, z: 0}
+  Thrown: 0
 --- !u!1 &7686414771262399344
 GameObject:
   m_ObjectHideFlags: 0
